@@ -1,0 +1,21 @@
+.sale-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.important-info {
+    font-weight: 600;
+}
+
+.old-price {
+    text-decoration: line-through;
+}
+
+.new-price {
+    color: #f00;
+}
+
+.photo {
+    margin-left: 100px;
+}
