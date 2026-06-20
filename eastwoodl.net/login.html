@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="李律律师工作台登录入口壳。">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>律师工作台登录 | 李律</title>
+    <link rel="stylesheet" href="./styles/site.css">
+</head>
+
+<body class="auth-page">
+    <header class="site-header">
+        <a class="brand" href="./index.html">
+            <span class="brand-mark">律</span>
+            <span>
+                <strong>李律</strong>
+                <small>律师工作台</small>
+            </span>
+        </a>
+        <nav class="site-nav" aria-label="登录页导航">
+            <a href="./index.html#practice">业务领域</a>
+            <a href="./index.html#materials">资料整理</a>
+            <a href="./index.html#contact">联系</a>
+        </nav>
+    </header>
+
+    <main class="auth-shell">
+        <section class="auth-card" aria-labelledby="login-title">
+            <p class="eyebrow">Private Workspace</p>
+            <h1 id="login-title">律师工作台入口</h1>
+            <p>
+                当前版本为静态登录入口壳，尚未接入真实账号、权限、数据库或案件资料系统。
+            </p>
+            <form class="login-form" onsubmit="return false;">
+                <label>
+                    账号
+                    <input type="text" name="account" placeholder="暂不启用真实账号" autocomplete="off">
+                </label>
+                <label>
+                    密码
+                    <input type="password" name="password" placeholder="暂不启用真实密码" autocomplete="off">
+                </label>
+                <a class="button primary" href="./workspace.html">查看工作台原型</a>
+            </form>
+            <p class="form-note">
+                请勿在当前页面输入真实案件信息、客户信息或常用密码。
+            </p>
+        </section>
+
+        <aside class="auth-aside" aria-label="安全提示">
+            <h2>第一版安全边界</h2>
+            <ul class="status-list">
+                <li>不保存账号密码</li>
+                <li>不上传案件材料</li>
+                <li>不展示客户身份信息</li>
+                <li>后续如建设真实系统，应另行设计后端、权限、加密和备份机制</li>
+            </ul>
+        </aside>
+    </main>
+</body>
+
+</html>

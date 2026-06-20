@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="李律律师工作台静态原型，不存放真实案件资料。">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>律师工作台原型 | 李律</title>
+    <link rel="stylesheet" href="./styles/site.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <a class="brand" href="./index.html">
+            <span class="brand-mark">律</span>
+            <span>
+                <strong>李律</strong>
+                <small>工作台原型</small>
+            </span>
+        </a>
+        <nav class="site-nav" aria-label="工作台导航">
+            <a href="./index.html">门户首页</a>
+            <a href="#cases">案件台账</a>
+            <a href="#documents">文书模板</a>
+            <a href="#research">法规检索</a>
+        </nav>
+    </header>
+
+    <main class="workspace">
+        <section class="workspace-hero">
+            <div>
+                <p class="eyebrow">Workspace Prototype</p>
+                <h1>律师工作台原型</h1>
+                <p>
+                    本页面用于确定未来办案系统的信息架构。当前不接入真实登录，不保存任何案件资料。
+                </p>
+            </div>
+            <div class="security-banner">
+                敏感案件资料暂不上传公网，本版本仅作结构和流程入口。
+            </div>
+        </section>
+
+        <section class="dashboard-grid" aria-label="工作台模块">
+            <article class="dashboard-card" id="cases">
+                <span class="card-kicker">Case Ledger</span>
+                <h2>案件台账</h2>
+                <p>预留案件阶段、关键期限、待办状态和沟通记录位置。</p>
+                <div class="placeholder-row">示例字段：案件名称占位、阶段占位、期限占位</div>
+            </article>
+            <article class="dashboard-card">
+                <span class="card-kicker">Materials</span>
+                <h2>材料目录</h2>
+                <p>预留证据分类、材料来源、证明目的和缺漏提示位置。</p>
+                <div class="placeholder-row">示例字段：材料类别、取得状态、备注</div>
+            </article>
+            <article class="dashboard-card">
+                <span class="card-kicker">Tasks</span>
+                <h2>待办事项</h2>
+                <p>预留庭期、举证期限、文书提交、客户沟通等事项。</p>
+                <div class="placeholder-row">示例字段：事项、优先级、完成状态</div>
+            </article>
+            <article class="dashboard-card" id="documents">
+                <span class="card-kicker">Templates</span>
+                <h2>文书模板</h2>
+                <p>预留起诉状、答辩状、代理词、证据目录等模板入口。</p>
+                <div class="placeholder-row">示例字段：模板名称、适用场景、更新时间</div>
+            </article>
+            <article class="dashboard-card" id="research">
+                <span class="card-kicker">Research</span>
+                <h2>法规检索</h2>
+                <p>预留法律、司法解释、部门规章、指导案例和裁判规则检索记录。</p>
+                <div class="placeholder-row">示例字段：检索主题、来源、核验状态</div>
+            </article>
+            <article class="dashboard-card">
+                <span class="card-kicker">Review</span>
+                <h2>办案复盘</h2>
+                <p>预留争议焦点、风险提示、沟通纪要和阶段成果整理入口。</p>
+                <div class="placeholder-row">示例字段：复盘主题、结论、后续动作</div>
+            </article>
+        </section>
+    </main>
+</body>
+
+</html>
