@@ -7,7 +7,7 @@ export default defineConfig({
   base: "./",
   plugins: [react()],
   build: {
-    outDir: "../eastwoodl.net",
+    outDir: "../eastwoodli.net",
     emptyOutDir: false,
     rollupOptions: {
       input: {

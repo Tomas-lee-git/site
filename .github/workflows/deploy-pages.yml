@@ -50,7 +50,7 @@ jobs:
       - name: Upload static site
         uses: actions/upload-pages-artifact@v3
         with:
-          path: eastwoodl.net
+          path: eastwoodli.net
 
       - name: Deploy
         id: deployment
