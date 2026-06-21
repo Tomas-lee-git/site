@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /workspace.html
+Disallow: /login.html
+Disallow: /articles/_template.html
+
+Sitemap: https://www.eastwoodli.net/sitemap.xml

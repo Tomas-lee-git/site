@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="李博律师专业文章列表，整理微信公众号已发布的刑事辩护、劳动争议、企业合规及民商事争议相关文章。">
+    <link rel="canonical" href="https://www.eastwoodli.net/articles/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="zh_CN">
+    <meta property="og:site_name" content="李博律师个人网站">
+    <meta property="og:title" content="专业文章 | 李博律师">
+    <meta property="og:description" content="李博律师专业文章列表，支持按标题、摘要、分类和关键词搜索。">
+    <meta property="og:url" content="https://www.eastwoodli.net/articles/">
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <title>专业文章 | 李博律师</title>
+    <link rel="stylesheet" href="../styles/site.css">
+    <link rel="stylesheet" href="../styles/experience.css">
+    <link rel="stylesheet" href="../styles/articles.css">
+    <script defer src="./data.js"></script>
+    <script defer src="../scripts/articles.js"></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "李博律师专业文章",
+        "url": "https://www.eastwoodli.net/articles/",
+        "description": "李博律师微信公众号专业文章的站内整理页。",
+        "publisher": {
+          "@type": "Person",
+          "name": "李博"
+        }
+      }
+    </script>
+</head>
+
+<body data-page="articles">
+    <header class="site-header">
+        <a class="brand" href="../index.html" aria-label="返回首页">
+            <span class="brand-mark">律</span>
+            <span>
+                <strong>李博律师</strong>
+                <small>陕西泾渭分明律师事务所</small>
+            </span>
+        </a>
+        <nav class="site-nav" aria-label="主导航">
+            <a href="../index.html">首页</a>
+            <a href="./">专业文章</a>
+            <a href="../login.html">律师工作台</a>
+            <a href="../index.html#contact">联系</a>
+        </nav>
+    </header>
+
+    <main class="articles-shell">
+        <section class="articles-hero">
+            <p class="eyebrow">Articles</p>
+            <h1>专业文章</h1>
+            <p>这里集中整理李博律师已在微信公众号发布的专业文章。每篇文章均设置独立链接、摘要、关键词和原文出处说明，便于检索、阅读和搜索引擎收录。</p>
+            <form class="article-search" role="search">
+                <label for="article-query">搜索文章</label>
+                <div>
+                    <input id="article-query" name="q" type="search" placeholder="搜索标题、摘要、分类或关键词" autocomplete="off">
+                    <button class="button primary" type="submit">搜索</button>
+                </div>
+            </form>
+        </section>
+
+        <section class="article-tools" aria-label="文章筛选">
+            <div>
+                <strong id="article-count">0 篇文章</strong>
+                <span id="article-status">等待导入文章数据</span>
+            </div>
+            <div class="category-list" id="category-list" aria-label="分类筛选"></div>
+        </section>
+
+        <section class="article-list" id="article-list" aria-label="文章列表"></section>
+
+    </main>
+
+    <footer class="site-footer">
+        <p>© 李博律师个人网站。公开内容以实际确认信息为准。</p>
+        <a href="../index.html#contact">联系李博律师</a>
+    </footer>
+</body>
+
+</html>

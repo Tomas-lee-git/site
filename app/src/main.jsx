@@ -91,11 +91,6 @@ function HomePage() {
       <main id="top">
         <section className="hero">
           <div className="hero-copy">
-            <p className="eyebrow">陕西西安 | 执业律师</p>
-            <h1>李博律师</h1>
-            <p className="hero-lede">
-              法学本科背景，曾从事企业法务和互联网产品研发工作，现为陕西泾渭分明律师事务所执业律师，主要提供民商事纠纷代理、刑事辩护及企业合规等法律服务。
-            </p>
             <div className="hero-actions" aria-label="主要操作">
               <a className="button primary" href="#contact">
                 预约沟通
@@ -105,21 +100,11 @@ function HomePage() {
               </a>
             </div>
           </div>
-          <aside className="hero-panel" aria-label="网站状态">
-            <h2>服务特点</h2>
-            <ul className="status-list">
-              <li>法律职业资格 A 证，2026 年取得律师执业证</li>
-              <li>兼具法务、技术团队交付和执业律师经历</li>
-              <li>重视事实梳理、证据组织和案件进度管理</li>
-            </ul>
-          </aside>
         </section>
 
         <section className="section" id="profile">
           <div className="profile-layout">
             <div className="section-heading">
-              <p className="eyebrow">About</p>
-              <h2>从法务、程序员到执业律师</h2>
               <p>
                 李博律师，1993 年生，2011 年至 2015 年就读于陕西科技大学法学专业，2014 年通过国家司法考试并取得法律职业资格证 A 证。
               </p>
