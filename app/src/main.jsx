@@ -86,9 +86,9 @@ const methodSteps = [
 
 const socialLinks = [
   ["personal", "#contact", "个人微信", false],
-  ["wechat", "https://weixin.sogou.com/weixin?type=1&query=%E8%A5%BF%E5%AE%89%E6%9D%8E%E5%8D%9A%E5%BE%8B%E5%B8%88", "微信公众号", true],
-  ["douyin", "https://www.douyin.com/search/%E8%A5%BF%E5%AE%89%E6%9D%8E%E5%8D%9A%E5%BE%8B%E5%B8%88", "抖音", true],
-  ["rednote", "https://www.xiaohongshu.com/search_result?keyword=%E8%A5%BF%E5%AE%89%E6%9D%8E%E5%8D%9A%E5%BE%8B%E5%B8%88", "小红书", true]
+  ["wechat", "#contact", "微信公众号", false],
+  ["douyin", "#contact", "抖音", false],
+  ["rednote", "#contact", "小红书", false]
 ];
 
 const prepItems = [
