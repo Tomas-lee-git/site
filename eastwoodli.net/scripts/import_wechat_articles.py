@@ -184,7 +184,6 @@ def build_article_html(article: dict[str, object], content: str) -> str:
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
     <title>{html.escape(title)} | 李博律师</title>
     <link rel="stylesheet" href="../styles/site.css">
-    <link rel="stylesheet" href="../styles/experience.css">
     <link rel="stylesheet" href="../styles/articles.css">
     <script type="application/ld+json">
       {json.dumps(json_ld, ensure_ascii=False, indent=6)}
@@ -193,7 +192,7 @@ def build_article_html(article: dict[str, object], content: str) -> str:
 
 <body data-page="article-detail">
     <header class="site-header">
-        <a class="brand" href="../index.html" aria-label="返回首页">
+        <a class="brand" href="/index.html" aria-label="返回首页">
             <span class="brand-mark">律</span>
             <span>
                 <strong>李博律师</strong>
@@ -201,16 +200,16 @@ def build_article_html(article: dict[str, object], content: str) -> str:
             </span>
         </a>
         <nav class="site-nav" aria-label="主导航">
-            <a href="../index.html">首页</a>
-            <a href="./">专业文章</a>
-            <a href="../login.html">律师工作台</a>
-            <a href="../index.html#contact">联系</a>
+            <a href="/index.html">首页</a>
+            <a href="/articles/index.html">专业文章</a>
+            <a href="/login.html">律师工作台</a>
+            <a href="/index.html#contact">联系</a>
         </nav>
     </header>
 
     <main class="article-detail">
         <article class="article-body">
-            <a class="text-link" href="./">返回文章列表</a>
+            <a class="text-link" href="/articles/index.html">返回文章列表</a>
             <p class="eyebrow">{html.escape(category)}</p>
             <h1>{html.escape(title)}</h1>
             <p class="article-meta">发布日期：{html.escape(publish_date or "日期待补充")} · 原载于微信公众号</p>
@@ -231,7 +230,7 @@ def build_article_html(article: dict[str, object], content: str) -> str:
 
     <footer class="site-footer">
         <p>© 李博律师个人网站。公开内容以实际确认信息为准。</p>
-        <a href="../index.html#contact">联系李博律师</a>
+        <a href="/index.html#contact">联系李博律师</a>
     </footer>
 </body>
 
